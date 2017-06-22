@@ -1,2 +1,2 @@
-# FacturaPrueba
-Proyecto en clase
+# factura
+Ejemplo de modelado implementado en Java
