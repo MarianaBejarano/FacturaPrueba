@@ -25,5 +25,17 @@ public class Localidad {
     public String getPrefijo_tel() {
         return Prefijo_tel;
     }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public void setAlias(String Alias) {
+        this.Alias = Alias;
+    }
+
+    public void setPrefijo_tel(String Prefijo_tel) {
+        this.Prefijo_tel = Prefijo_tel;
+    }
         
 }

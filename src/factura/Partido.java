@@ -13,6 +13,7 @@ public class Partido {
  
     private String Nombre;
     private String Alias;
+    private Partido partido;
 
     public String getNombre() {
         return Nombre;
@@ -22,6 +23,10 @@ public class Partido {
         return Alias;
     }
 
+    public Partido getPartido() {
+        return partido;
+    }
+
     public void setNombre(String Nombre) {
         this.Nombre = Nombre;
     }
@@ -29,5 +34,9 @@ public class Partido {
     public void setAlias(String Alias) {
         this.Alias = Alias;
     }
-    
-}
+
+    public void setPartido(Partido partido) {
+        this.partido = partido;
+    }
+                
+

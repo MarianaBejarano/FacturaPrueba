@@ -10,15 +10,20 @@ package factura;
  * @author PC22
  */
 public class Provincia {
+    private Pais pais;
     private String Nombre;
     private String Alias;
+
+    public Pais getPais() {
+        return pais;
+    }
 
     public String getNombre() {
         return Nombre;
     }
 
-    public String getAlias() {
-        return Alias;
+    public void setPais(Pais pais) {
+        this.pais = pais;
     }
 
     public void setNombre(String Nombre) {
@@ -28,7 +33,8 @@ public class Provincia {
     public void setAlias(String Alias) {
         this.Alias = Alias;
     }
+    
 
+    public String getAlias() {
+        return Alias;
     
-    
-}
